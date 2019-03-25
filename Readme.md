@@ -30,3 +30,12 @@ int main(void) {
 #### 2. stdlib.h
   * Standard library
   * This file we need to include because whenever we run or compile a C program, compiler searches for the ```main()``` function in our project. ```main()``` is like an entry path to our program. So ```main()``` is a part of **stdlib.h**
+  
+#### 3. int main() {}
+  * This is a function.
+  * It's a built-in function, which every program must have.
+  * by main(), a **c** program knows that this is the entry point of the program.
+  * So each program must have at least only one ```main()``` function.
+  * **What is a function?** Function is a piece of code, which we need to execute a piece of code.
+  * A function has two-three basic things.
+	i. first is return type ```int```
