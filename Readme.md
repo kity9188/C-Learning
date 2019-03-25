@@ -25,4 +25,8 @@ int main(void) {
 
 #### 1. stdio.h
   * Standard Input Output
-  * 
+  * Responsible for **taking input** and **printing output**. e.g., **printf** prints anything because of stdio.h pre-processed library.
+
+#### 2. stdlib.h
+  * Standard library
+  * This file we need to include because whenever we run or compile a C program, compiler searches for the ```main()``` function in our project. ```main()``` is like an entry path to our program. So ```main()``` is a part of **stdlib.h**
