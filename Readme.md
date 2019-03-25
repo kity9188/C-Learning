@@ -23,6 +23,6 @@ int main(void) {
 * syntax: ```#include <filename>``` to include the file.
 * These two files viz., **stdio.h** and **stdlib.h** are most important files to create any simple program.
 
-#### stdio.h
+#### 1. stdio.h
   * Standard Input Output
   * 
