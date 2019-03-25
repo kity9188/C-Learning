@@ -38,4 +38,4 @@ int main(void) {
   * So each program must have at least only one ```main()``` function.
   * **What is a function?** Function is a piece of code, which we need to execute a piece of code.
   * A function has two-three basic things.
-	i. first is return type ```int```
+	* first is return type ```int```
