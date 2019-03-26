@@ -51,6 +51,4 @@ will print to screen:
 ```C
 Print this string.
 ```
-**Followed by a newline character**
-
-The ```puts()``` function appends a newline character to its output.
+**followed by a newline character**. The ```puts()``` function appends a newline character to its output.
