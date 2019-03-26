@@ -17,3 +17,10 @@ int main(void) {
 	return EXIT_SUCCESS;
 }
 ```
+Output:
+```C
+Printing Numbers
+32
+19 + 31 is : 50
+32.900000
+```
