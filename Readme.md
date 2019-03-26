@@ -35,4 +35,22 @@ These **placeholders** are called **format specifiers**. Many other format speci
 * %c - char
 * %s - string
 * %x - hexadecimal
+
 A complete listing of all the format specifiers for printf() is on [Wikipedia](https://en.wikipedia.org/wiki/Printf_format_string).
+
+## 2. Other output methods
+Other than ```printf();```, we have another output method:
+```C
+puts();
+```
+The ```puts()``` function is a very simple way to send a string to the screen when you have no placeholders or variables to be concerned about. It works very much like the ```printf()``` function.
+```C
+puts("Print this string.");
+```
+will print to screen:
+```C
+Print this string.
+```
+**Followed by a newline character**
+
+The ```puts()``` function appends a newline character to its output.
