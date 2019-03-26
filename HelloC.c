@@ -13,5 +13,8 @@
 
 int main(void) {
 	printf("!!!Hello World!!!\n"); /* prints !!!Hello World!!! */
+	printf("%d",32); /* %d is a placeholder which holds a place for integer. d stands for integer */
+	printf("\n");
+	printf("%f", 32.9); /* f is a placeholder for float/decimal value */
 	return EXIT_SUCCESS;
 }
