@@ -39,7 +39,7 @@ int main(void) {
   * **What is a function?** Function is a piece of code, which we need to execute a piece of code.
   * A function has few basic things.
 	* **return type**:
-		*e.g., ``` int ``` or integer 
+		* e.g., ``` int ``` or integer 
 		* int is a data type which returns only integers.
 	* **function()** :
 		* **main()** is the name of the function.
