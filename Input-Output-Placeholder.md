@@ -24,3 +24,15 @@ Printing Numbers
 19 + 31 is : 50
 32.900000
 ```
+The placeholder %d literally "holds the place" for the actual number that is 32 or the result of adding 19 to 31 or 32.9 as shown in the above example.
+
+These **placeholders** are called **format specifiers**. Many other format specifiers work with **printf()**. If we have a floating-point number, we can use %f to print out a floating-point number, decimal point and all. Other format specifiers are:
+
+* %d - int (same as %i)
+* %ld - long int (same as %li)
+* %f - float
+* %lf - double[1]
+* %c - char
+* %s - string
+* %x - hexadecimal
+A complete listing of all the format specifiers for printf() is on [Wikipedia](https://en.wikipedia.org/wiki/Printf_format_string).
