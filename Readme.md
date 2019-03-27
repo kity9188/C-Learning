@@ -22,9 +22,9 @@
 [Code Blocks](http://www.codeblocks.org/home) | Code Blocks is open source and cross platform, so can be used in any OS.
 [Binary link](http://www.codeblocks.org/downloads/26) | Download the source code with mingw (i.e., compiler with editor).
 
-	**mingw** is the compiler.
+**mingw** is the compiler.
 
 [Eclipse](https://www.eclipse.org/downloads/) | For downloading and installing eclipse, we need three things viz., Eclipse IDE, C [compiler](http://www.equation.com/servlet/equation.cmd?fa=fortran) and JDK (JDK or JRE because Eclipse is a JAVA IDE, has JAVA dependancy). | Download and install all these.
 
-	#### Configuring Eclipse for C/C++
+#### Configuring Eclipse for C/C++
 	
