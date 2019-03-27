@@ -17,10 +17,17 @@ int main() {
 	printf("%x \n",16);	/// Hex
 
 	printf("----------Taking input----------\n");
-/*	char name;
-///	scanf("%s","Put your name :",name);
-///	printf(name);
-	printf("----------Puts----------\n");    */
-	puts("Print this string.");
+	char name[20];
+	int age;
+	puts("What should I call you?");
+	scanf("%s",name);
+
+	printf("How Old are you? \n");
+	scanf("%d",&age);
+	printf("Welcome abroad %s. \n",name);
+
+	printf("----------Puts----------\n");
+	puts("Now This is using puts(). \nThe puts() function is a very simple way to send a string to the screen when you have no placeholders or variables to be concerned about. It works very much like the printf() function.");
+
 	return EXIT_SUCCESS;
 }

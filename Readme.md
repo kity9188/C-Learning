@@ -54,3 +54,24 @@ Print this string.
 **followed by a newline character**. The ```puts()``` function appends a newline character to its output.
 ## 3. Input using ```scanf()```
 The ```scanf()``` function is the input method equivalent to the ```printf()``` output function - simple yet powerful. In its simplest invocation, the scanf format string holds a single placeholder representing the type of value that will be entered by the user. These placeholders are mostly the same as the ```printf()``` function - **%d** for integers, **%f** for floats, and **%lf** for doubles.
+
+There is, however, one variation to ```scanf()``` as compared to ```printf()```. The ```scanf()``` function requires the memory address of the variable to which we want to save the input value. While pointers (variables storing memory addresses) can be used here. Instead, the simple technique is to use the address-of operator, &.
+
+A typical application might be like this:
+```C
+#include "stdio.h"
+
+int main(void)
+{
+    char name[20];
+	int age;
+	puts("What should I call you?");
+	scanf("%s",name);
+
+	printf("How Old are you? \n");
+	scanf("%d",&age);
+	printf("Welcome abroad %s. \n",name);
+
+    return 0;
+}
+```
