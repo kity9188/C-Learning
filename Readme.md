@@ -38,7 +38,7 @@ These **placeholders** are called **format specifiers**. Many other format speci
 
 A complete listing of all the format specifiers for printf() is on [Wikipedia](https://en.wikipedia.org/wiki/Printf_format_string).
 
-## 2. Other output methods
+## 2. Other output methods ```puts()```
 Other than ```printf();```, we have another output method:
 ```C
 puts();
