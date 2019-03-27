@@ -52,3 +52,5 @@ will print to screen:
 Print this string.
 ```
 **followed by a newline character**. The ```puts()``` function appends a newline character to its output.
+## 3. Input using ```scanf()```
+The ```scanf()``` function is the input method equivalent to the ```printf()``` output function - simple yet powerful. In its simplest invocation, the scanf format string holds a single placeholder representing the type of value that will be entered by the user. These placeholders are mostly the same as the ```printf()``` function - **%d** for integers, **%f** for floats, and **%lf** for doubles.
